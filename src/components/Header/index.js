@@ -1,14 +1,18 @@
-import React from 'react';
-import './style.scss';
-
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./style.scss";
 
 function Header() {
-
-
   return (
     <div className="header">
-      <h1>Hello</h1>
-      
+      <ul>
+        <li>
+          <NavLink to="/"exact>HOME</NavLink>
+        </li>
+        <li>
+          <NavLink to="/gallery">GALLERY</NavLink>
+        </li>
+      </ul>
     </div>
   );
 }

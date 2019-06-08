@@ -7,9 +7,9 @@ function Gallery() {
 
   return (
     <div className="gallery">
-      <h1>Hello</h1>
+      <h1>Hi TESTINGsdsdsdsds</h1>
       
-    </div>
+    </div> 
   );
 }
 
